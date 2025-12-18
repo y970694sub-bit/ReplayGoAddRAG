@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGAT JAPAN GROUP - Rules</title>
+    <style>
+        /* 全体のスタイル設定 */
+        body {
+            background-color: #000000; /* 真っ黒に近いグレーで高級感を */
+            color: #e0e0e0;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            border: 1px solid #333;
+            padding: 40px;
+            background: linear-gradient(145deg, #111, #050505);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* ロゴ・見出し部分 */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #ff3e3e; /* アクセントカラーに赤 */
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .logo-placeholder {
+            font-size: 0.8rem;
+            color: #666;
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 10px 0;
+            letter-spacing: 2px;
+            color: #ffffff;
+        }
+
+        /* 各セクションのタイトル */
+        h2 {
+            font-size: 1.2rem;
+            color: #71579b;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "■";
+            margin-right: 10px;
+            font-size: 0.8rem;
+        }
+
+        /* 説明文 (#の部分) */
+        p {
+            margin: 0 0 15px 25px;
+            color: #bbb;
+            font-size: 0.95rem;
+        }
+
+        /* 特殊な枠組み（Mission / Value） */
+        .highlight-box {
+            background-color: #1a1a1a;
+            border-left: 4px solid #fff;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+
+        /* Good/Bad の色分け */
+        .status-good { color: #4caf50; font-weight: bold; }
+        .status-bad { color: #f44336; font-weight: bold; }
+
+        /* フッター */
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+
+        /* スマホ対応 */
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+<div class="logo-placeholder">
+    <img src="LOGO" width="450">
+
+</div>
+
+        <h1>Replay Go Add TAG JAPAN Group</h1>
+    </div>
+
+    <h1>こんにちは、日本、グッドタグ</h1>
+
+    <h2>ルール・仕組み：公平なスタート, 不可逆な交代</h2>
+    <p>一番最初の鬼がタッチした。役割が変わり増やしTAGに。</p>
+
+    <div class="highlight-box">
+        <strong>Mission：</strong>私たちは遊びに「公平性」、「選択肢」を与える。
+    </div>
+    <div class="highlight-box">
+        <strong>Value's：</strong>FairStart, Clear Rules, Safe Play
+    </div>
+
+
+    <h2>Code Of Conduct's</h2>
+    <p><span class="status-bad">BAD:</span> 暴言・煽り行為、ルールの無視、常識を逸脱</p>
+    <p><span class="status-good">GOOD:</span> ルールを理解、他者への配慮、安全で公平。</p>
+
+    <h2>Authority</h2>
+    <p>本グループの最終判断はRGAT Japanが行う。個人の解釈より公式ルールを優先。</p>
+
+    <h2>Disclaimer / Limitation of Liability</h2>
+    <p>本活動中に発生したトラブルにつき、当グループは可能な限り対応する。だが、結果を保証することはできない。</p>
+
+    <h2>Conditions Of Participation</h2>
+    <p>参加者は本ルールに同意したものとみなす。</p>
+
+    <h2>Rules Replay</h2>
+    <p>ルールは必要に応じ変更する。</p>
+
+    <div style="text-align: center; margin-top: 40px; font-style: italic; color: #888;">
+        RGAT Japanは公平で安全な遊び場を設計する。
+    </div>
+
+    <div class="footer">
+        (LOGO) Replay Go Add TAG JAPAN GROUP™︎
+    </div>
+</div>
+
+</body>
+</html>
